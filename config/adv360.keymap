@@ -94,22 +94,22 @@
         keypad {
             display-name = "Symbol";
             bindings = <
-&kp EQUAL  &kp N1       &kp N2          &kp N3          &kp N4           &kp N5     &trans                                                   &mo 3      &kp N6     &kp KP_NUM                     &kp KP_EQUAL    &kp KP_DIVIDE  &kp KP_MULTIPLY                  &kp MINUS
-&kp TAB    &kp Q        &kp W           &kp E           &kp R            &kp T      &none                                                    &none      &kp Y      &kp KP_N7                      &kp KP_N8       &kp KP_N9      &kp KP_MINUS                     &kp BSLH
-&kp ESC    &mac_swed_a  &mac_swed_o     &mac_swed_aa    &kp EQUAL        &kp GRAVE  &none      &trans    &trans         &trans    &trans     &trans     &none      &mt LA(LEFT_ARROW) LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &mt LA(RIGHT_ARROW) RIGHT_ARROW  &kp QUESTION
-&kp ENTER  &kp LSHFT    &mac_swed_capa  &mac_swed_capo  &mac_swed_capaa  &kp PLUS                        &kp TILDE      &kp HOME                        &kp PG_UP  &kp N                          &kp KP_N1       &kp KP_N2      &kp KP_N3                        &kp KP_ENTER
-&kp RSHFT  &mo 2        &kp GRAVE       &kp CAPS        &kp LEFT                    &kp RIGHT  &kp BSPC  &kp DEL        &kp END   &kp PG_DN  &kp ENTER             &kp KP_N0                      &kp UP          &kp DOWN       &kp KP_DOT                       &kp RBKT
+&kp EQUAL  &kp N1           &kp N2          &kp N3          &kp N4           &kp N5       &trans                                                   &mo 3      &kp N6     &kp KP_NUM                     &kp KP_EQUAL    &kp KP_DIVIDE  &kp KP_MULTIPLY                  &kp MINUS
+&kp TAB    &kp EXCLAMATION  &kp AT          &kp HASH        &kp DOLLAR       &kp PERCENT  &none                                                    &none      &kp CARET  &kp AMPS                       &kp ASTERISK    &kp LPAR       &kp RPAR                         &kp BACKSPACE
+&kp ESC    &mac_swed_a      &mac_swed_o     &mac_swed_aa    &kp EQUAL        &kp GRAVE    &none      &trans    &trans         &trans    &trans     &trans     &none      &mt LA(LEFT_ARROW) LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &mt LA(RIGHT_ARROW) RIGHT_ARROW  &kp QUESTION
+&kp ENTER  &kp LSHFT        &mac_swed_capa  &mac_swed_capo  &mac_swed_capaa  &kp PLUS                          &kp TILDE      &kp HOME                        &kp PG_UP  &kp N                          &kp KP_N1       &kp KP_N2      &kp KP_N3                        &kp KP_ENTER
+&kp RSHFT  &mo 2            &kp GRAVE       &kp CAPS        &kp LEFT                      &kp RIGHT  &kp BSPC  &kp DEL        &kp END   &kp PG_DN  &kp ENTER             &kp KP_N0                      &kp UP          &kp DOWN       &kp KP_DOT                       &kp RBKT
             >;
         };
 
         fn {
             display-name = "Number";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11         &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &kp N7  &kp N8  &kp N9  &kp N0   &kp LG(LS(N4))  &trans
-&trans  &trans  &trans  &trans  &trans  &none   &trans  &trans  &trans      &trans  &none   &kp N1  &kp N2  &kp N3  &kp N4  &kp N5   &kp ENTER       &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans          &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7        &kp F8        &kp F9        &kp F10       &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0   &trans
+&trans  &trans  &trans  &trans  &trans  &none   &trans  &trans  &trans      &trans  &trans  &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans        &trans        &trans        &trans        &trans   &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans        &trans        &trans
             >;
         };
 
